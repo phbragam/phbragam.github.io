@@ -234,7 +234,6 @@ button {
     font-size: 17px;
     color: #fefefd;
     border-radius: 5px;
-    text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -244,6 +243,19 @@ button {
 
 .navbar-brand {
     width: 10%;
+}
+
+.nav-name {
+    padding: 3px 20px;
+    font-size: 22px;
+    color: #fefefd;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav-name:focus,
+.nav-name:hover {
+    color: #8c8c8c;
 }
 
 .navbar {
