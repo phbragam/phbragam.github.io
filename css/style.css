@@ -101,7 +101,7 @@ h4 a,
 h5 a,
 h6 a {
     color: #212121;
-    text-decoration: none!important;
+    text-decoration: none !important;
     opacity: 1
 }
 
@@ -146,7 +146,7 @@ img {
     height: auto;
 }
 
- :focus {
+:focus {
     outline: 0;
 }
 
@@ -250,7 +250,7 @@ button {
     font-size: 22px;
     color: #fefefd;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .nav-name:focus,
@@ -265,6 +265,31 @@ button {
 
 /* header section end */
 
+/* about-me section start */
+
+.about_me_section {
+    width: 100%;
+    padding: 120px 0px 80px 0px;
+}
+
+.about_me_section .container {
+    display: flex;
+}
+
+.about_me_content {
+    flex: 0 0 50%;
+    /* This makes the content take up 50% of the container's width */
+    text-align: justify;
+}
+
+.about_me_content h1 {
+    margin: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+}
+
+/* about-me section end */
 
 /* banner section start */
 
@@ -336,7 +361,7 @@ button {
 
 .carousel-indicators .active {
     background-color: #000000;
-    
+
 }
 
 .carousel-indicators {
@@ -842,7 +867,7 @@ figure:hover+span {
 #my_slider .carousel-control-prev:hover {
     color: #fefefd;
     background-color: #000000;
-    
+
 }
 
 
@@ -1034,7 +1059,7 @@ textarea#comment.massage-bt::placeholder {
     margin-right: 5px;
     width: 38px;
     text-align: center;
-    
+
 }
 
 .footer_social_icon li a:hover {
