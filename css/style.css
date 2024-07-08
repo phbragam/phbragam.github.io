@@ -283,7 +283,7 @@ button {
 }
 
 .about_me_content {
-    flex: 0 0 50%;
+    flex: 0 0 70%;
     /* This makes the content take up 50% of the container's width */
     /* text-align: justify; */
 }
