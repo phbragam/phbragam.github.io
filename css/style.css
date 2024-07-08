@@ -222,6 +222,7 @@ button {
     background-color: #000000;
     height: auto;
     background-size: 100%;
+    flex: 0 0 auto;
 }
 
 .bg-light {
@@ -284,7 +285,7 @@ button {
 .about_me_content {
     flex: 0 0 50%;
     /* This makes the content take up 50% of the container's width */
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .about_me_content h1 {
@@ -994,6 +995,7 @@ textarea#comment.massage-bt::placeholder {
     background-color: #000000;
     background-size: 100%;
     padding: 30px 0px;
+    flex: 0 0 auto;
 }
 
 .useful_text {
